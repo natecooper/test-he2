@@ -1,0 +1,202 @@
+/*
+
+DULL
+#555555 gray
+#aa7744 tan
+#778899 blue
+#dd9955 orange
+#eebb99 sand
+
+VIBRANT
+#555555 gray
+#cc7722 tan
+#5599bb blue
+#ff8822 orange
+#ffbb66 sand
+
+*/
+
+/*
+
+main containers
+====================================*/
+
+body {
+	background-color: #778899;
+	font-family: 'Roboto', sans-serif;
+	font-size: .9em;
+}
+
+div {
+	border: solid 1px black;
+	color:white;
+}
+
+
+
+main {
+	width: 800px;
+	text-align: left;
+	margin: 0 auto;
+	
+}
+
+/*
+House and furniture
+====================================*/
+
+div.house {
+	background-color: #ffbb66;
+	height: 600px;
+
+	position: relative;
+	text-align: center;
+}
+
+div.chair {
+	background-color: #555555;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+
+div.chair1 {
+	top:100px;	
+	left: 100px;
+	right: 100px;
+
+}
+
+div.chair2 {
+	top:100px;
+	right: 300px;
+
+}
+
+div.table {
+	background-color: #cc7722;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	top: 50px;
+	left: 200px;
+
+}
+
+div.couch {
+	background-color: #5599bb;
+	height: 150px;
+	width: 400px;
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+}
+
+/*
+paragraph, list, link styling
+====================================*/
+
+.house p {
+	margin: 0 auto;
+	top:46%;
+	position: relative;
+	
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #555555;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.noparty {
+	color: white;
+	font-size: 1em;
+	background-color: #555555;
+	position: relative;
+}
+
+.status {
+	background-color: #555555;
+	position: relative;
+	position: relative;	
+}
+
+nav {
+	width: 100%;
+}
+
+nav ul {
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin: 10px 0 10px 0;
+	border: solid thin black;
+	background:  #ffbb66;
+}
+
+nav li {
+	display: table-cell; 
+	text-align: center;
+	width: 30%;
+	height: 50px;
+}
+
+nav button {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background-color: rgba(0,0,0,0);
+	font-size: inherit;
+	font-family: inherit;
+	outline: none;
+}
+
+nav li:hover, nav li:hover button {
+	background-color: #cc7722;
+	color: #ffffff;
+}
+
+.house div {
+	border-radius: 5px;
+}
+
+.close a {
+	color: white;
+}
+
+.close {
+	color: white;
+	font-size: 2em;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	margin: 0;
+}
+.furniture  {
+	background-color: red;
+	width: 300px;	
+	list-style: none;
+}
+
+h1.congrats {
+	text-align: center;
+}
+
+.party {
+	background-color: #555555;
+}
+
+#sample-red {
+	background-color: red;
+}
+
+.meta {
+	font-size: .6em;
+}
