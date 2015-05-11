@@ -16,6 +16,8 @@ var tableCurrent = "Table is in it's normal position.";
 var elemClicked = "";
 var justClicked = false;
 
+//test
+
 	//
 	//
 	// Functions
